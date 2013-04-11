@@ -68,7 +68,7 @@
   	<div class="grid_24">
 
 	    <div id="header-logo">
-	    	<a href="http://localhost/%7Emca/theme/pages/front.php">
+				<a href="/">
 	    		<img src="/static/img/logo.png" alt="Bibliotek.dk logo">
 	      </a>
 	    </div>
