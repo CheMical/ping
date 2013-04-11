@@ -1,0 +1,1143 @@
+<html class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body class="frontpage">
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>BIBLIOTEK.DK</title>
+  <meta name="description" content="">
+
+
+  <link rel="stylesheet" href="/static/css/screen.css" media="screen, projection">
+  <link rel="stylesheet" href="/static/css/print.css" media="print">
+  <link rel="stylesheet" href="/static/css/css.css" type="text/css">
+
+  <script src="/static/js/jquery_003.js"></script>
+  <script src="/static/js/modernizr-2.js"></script>
+  <script src="/static/js/selectivizr-min.js"></script>
+  <script src="/static/js/jquery_002.js"></script>
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/plugins.js"></script>
+  <script src="/static/js/script.js"></script>
+
+
+
+
+<div id="region-topbar">
+
+	<div class="container_24">
+
+		<div class="grid_24">
+
+			<nav id="service-nav" class="clearfix horizontal-nav">
+				<a href="#">English</a>
+				<a href="#">Om bibliotek.dk</a>
+				<a href="#">Presserum</a>
+				<a href="#">Blog</a>
+				<a href="#">Sitemap</a>
+				<a href="#">Kontakt</a>
+				<a href="#">Hjælp</a>
+			</nav>
+			<!-- #service-nav -->
+
+
+			<nav id="user-nav" class="clearfix horizontal-nav with-mats">
+				<div id="user-nav-inner">
+					<a class="materials-button" href="#">
+						<span class="mats">7</span>materialer gemt
+					</a>
+					<a class="login-button" href="#">Log ind</a>
+				</div>
+			</nav>
+			<!-- #user-nav -->
+
+		</div>
+		<!-- .grid_24 -->
+
+	</div>
+	<!-- .container_24 -->
+
+</div>
+<!-- #top-bar --><div id="region-header">
+
+  <div class="container_24">
+
+  	<div class="grid_24">
+
+	    <div id="header-logo">
+	    	<a href="http://localhost/%7Emca/theme/pages/front.php">
+	    		<img src="/static/img/logo.png" alt="Bibliotek.dk logo">
+	      </a>
+	    </div>
+
+	    <div id="page-actions" class="horizontal-nav">
+
+	    	<div class="page-action page-action-sporg-vagt">
+	    		
+		      <a href="#">
+		        <img src="/static/img/vagt.png" height="26" width="26">
+		        Spørg biblioteksvagten
+		      </a>
+
+	    	</div>
+
+	    	<div class="page-action page-action-find-bib">
+		      <a href="#">Find bibliotek</a>
+		      <form style="display: none;">
+		      	<input placeholder="Skriv biblioteksnavn, postnr, by ..." type="text">
+          	<input value="Søg" type="submit">
+          </form>
+	    	</div>
+
+
+	    </div>
+	    <!-- page-actions -->
+
+  	</div>
+  	<!-- grid_24 -->
+
+  </div>
+  <!-- container_24 -->
+
+</div>
+<!-- #region-header -->
+
+
+<div id="region-search">
+
+  <div class="container_24">
+
+    <div class="grid_24">
+
+      <nav id="search-form">
+        <form method="${search_form_method}" action="${search_path}" class="clearfix">
+            <input name="search_string" placeholder="Skriv søgeord" type="text">
+            <input value="Søg" class="btn btn-blue btn-fixed-size" type="submit">
+        </form>
+      </nav>
+
+      <nav id="search-tabs" class="horizontal-nav clearfix">
+        <a class="active" href="#">Alt</a>
+        <a href="#">Bøger</a>
+        <a href="#">Film</a>
+        <a href="#">Musik</a>
+        <a href="#">Spil</a>
+        <a href="#">Artikler</a>
+        <a href="#">Noder</a>
+        <a href="#">Net</a>
+      </nav>
+
+      <div id="search-advanced">
+        <div id="search-advanced-toggle">
+          <a class="icon-link icon-link-whitetext icon-link-darkgreyicon icon-link-plus" href="#">Flere søgemuligheder</a>
+        </div>
+        <div id="search-advanced-panel" class="visuallyhidden">
+          <!-- ADVANCED SEARCH HERE -->
+        </div>
+      </div>
+
+
+    </div>
+    <!-- .grid_24 -->
+
+  </div>
+  <!-- .container_24 -->
+
+
+</div>
+<!-- #region-search --><div id="region-subjects">
+
+  <div class="container_24">
+
+    <div class="grid_24">
+
+      <div id="subjects-nav">
+
+        <nav>
+
+          <ul>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Menneske og samfund</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Sundhed og sygdom</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Hjem og fritid</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Pædagogik, psykologi og uddannelse</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Samfundet, økonomi og politik</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Lande: Historie, rejser og sprog</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">IT, medier og kommunikation</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Erhvervsliv og brancher</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Natur og teknik</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Filosofi og religion</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Litteratur, kunst og underholdning</a>
+            </li>
+            <li>
+              <a class="icon-link icon-link-right" href="#">Skønlitteratur og erindringer</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+      <!-- #subjects-nav -->
+
+    </div>
+
+  </div>
+
+</div>
+<!-- #regions-subjects -->
+
+<div id="region-content">
+  
+  <div class="container_24">
+    <div id="block-news" class="block clearfix">
+
+  <div class="grid_24">
+
+    <div class="block-title">
+      <h2>Nyheder &amp; Information</h2>
+    </div>
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_9">
+
+    <article class="widget-wrapper">
+	
+	
+
+	<div style="cursor: pointer;" class="widget widget-light-grey widget-height-2">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Artikler fra infomedia</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>
+                    Du kan se artikler og anmeldelser i Infomedia via 
+bibliotek.dk, hvis dit bibliotek har tegnet abonnement på tjenesten.
+                  </p>
+                  <p>
+                    Du kan se linket til Infomedia i posterne, men du 
+skal være logget ind på bibliotek.dk for at få adgang til artiklen.
+                  </p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+    
+    <article class="widget-wrapper">
+	
+	
+
+	<div style="cursor: pointer;" class="widget widget-light-grey widget-height-2">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Bibliotek.dk App'en</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>
+                    Hent vores app til din mobil på Android Marked
+                  </p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Hent den her</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+
+     <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Brug Netbibliotekerne</a></h3>
+			</div>
+		
+		
+		<footer>
+			
+							<div class="field-read-more">
+					<a class="icon-link icon-link-whitetext icon-link-small icon-link-right" href="#">Læs mere</a>
+				</div>	
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Kom med i bibliotek.dk brugerpanelet</a></h3>
+			</div>
+		
+		
+		<footer>
+			
+							<div class="field-read-more">
+					<a class="icon-link icon-link-whitetext icon-link-small icon-link-right" href="#">Læs mere</a>
+				</div>	
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+    <div style="cursor: pointer;" class="widget widget-biblioteksvagt widget-height-2">
+
+  <div class="inner">
+
+    <div class="field-title">
+      <h3><a href="#">Spørg<br> biblioteksvagten</a></h3>
+    </div>
+  
+    <div class="field-body">
+      Du kan kontakte en bibliotekar, hvis du har brug for personlig service
+    </div>
+
+  </div>
+
+  <footer>
+
+    <div class="field-read-more">
+      <a class="icon-link icon-link-small icon-link-whiteicon icon-link-whitetext icon-link-right" href="#">Spørg biblioteksvagten</a>
+    </div>
+    
+  </footer>
+
+</div> 
+
+
+  </div>  
+  <!-- .grid -->
+
+</div>
+<!-- #block-news -->    <div id="block-books" class="block clearfix">
+
+  <div class="grid_24">
+
+    <div class="block-title">
+      <h2>Nye bøger</h2>
+    </div>
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_14">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/erica_jung.png" height="320" width="270">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 270px;" class="widget widget-light-grey widget-height-2">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Luft under vingerne</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>
+                    Den 30-årige amerikanske forfatterinde Isadora Wings
+ desperate forsøg på at frigøre sig fra det traditionelle
+                  </p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Neandertal</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Emmanuel Roudier</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">krig</a>&nbsp;/&nbsp;<a href="#">død</a>&nbsp;/&nbsp;<a href="#">ødelæggelse</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Englen Esmeralda</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Don Delillo</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">tiden</a>&nbsp;/&nbsp;<a href="#">USA</a>&nbsp;/&nbsp;<a href="#">1897-1901</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Englen Esmeralda</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Don Delillo</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">tiden</a>&nbsp;/&nbsp;<a href="#">USA</a>&nbsp;/&nbsp;<a href="#">1897-1901</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Min krig, suite</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Emmanuel Roudier</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">krig</a>&nbsp;/&nbsp;<a href="#">kærlighed</a>&nbsp;/&nbsp;<a href="#">romantik</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Mad til tiden</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Mie Schlechthoff</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">madlavning</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+  </div>
+  <!-- .grid -->
+
+</div>    <div id="block-movies" class="block clearfix">
+
+  <div class="grid_24">
+
+    <div class="block-title">
+      <h2>Nye film</h2>
+    </div>
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_9">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/school_of_rock.png" height="210" width="160">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 160px;" class="widget widget-light-grey widget-height-3">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">School of Rock</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>
+                    En falleret rockmusiker udgiver sig for at være 
+lærer, og gør en femteklasse på en fin privatskole til sit nye rockband.
+                   </p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Zoolander</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Ben Stiller</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">farcer</a>&nbsp;/&nbsp;<a href="#">mode</a>&nbsp;/&nbsp;<a href="#">modeller</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Det lille hus på prærien</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Blanche Hanalis</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">familien</a>&nbsp;/&nbsp;<a href="#">nybyggere</a>&nbsp;/&nbsp;<a href="#">Minnesota</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Forces speciales</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">David Jankowsko</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">krig</a>&nbsp;/&nbsp;<a href="#">overlevelse</a>&nbsp;/&nbsp;<a href="#">Frankrig</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_10">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/liberty_valance.png" height="250" width="190">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 190px;" class="widget widget-light-grey widget-height-3">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">The man who shot Liberty Valance</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>
+                    Ransom Stoddard vender efter en strålende karriere 
+som advokat og kongresmedlem tilbage til den lille by Shinbone i det 
+vilde vesten til begravelsen af vennen Tom Doniphon, der i sin tid hjalp
+ ham i kampen mod storforbryderen ...
+                   </p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+  </div>
+  <!-- .grid -->
+  
+</div>    <div id="block-music" class="block clearfix">
+
+  <div class="grid_24">
+
+    <div class="block-title">
+      <h2>Ny musik</h2>
+    </div>
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_14">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/violator.png" height="320" width="350">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 350px;" class="widget widget-light-grey widget-height-2">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Violator</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>Depeche Mode</p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Lukas Graham</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Lukas Graham</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">folk</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Warrior // Worrier</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Outlandish</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">hip hop</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">21</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Adele</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">pop</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Old ideas</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Leonard Cohen</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">jazz</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">21</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Adele</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">pop</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+  </div> 
+  <!-- .grid -->
+
+</div>    <div id="block-games" class="block clearfix">
+
+  <div class="grid_24">
+
+    <div class="block-title">
+      <h2>Nye spil</h2>
+    </div>
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_5">
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Test drive - Ferrari racing legends</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Slightly Mad Studios</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">computerspil</a>&nbsp;/&nbsp;<a href="#">racerspil</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Catherine</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Deep Silver</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">computerspil</a>&nbsp;/&nbsp;<a href="#">hovedbrudsspil</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+
+    <article style="cursor: pointer;" class="widget widget-dark-grey widget-height-1">
+	
+  <div class="inner">
+
+					<div class="field-title">
+				<h3><a href="#">Lego Batman 2 - DC super heroes</a></h3>
+			</div>
+		
+					<div class="field-artist">
+			  <a href="#">Warner Bros. Interactive Ent.</a>
+			</div>
+		
+		<footer>
+							<div class="field-taxonomy">
+					<a href="#">computerspil</a>&nbsp;/&nbsp;<a href="#">adventure</a>				</div>
+			
+					</footer>
+
+  </div>
+  <!-- inner -->
+
+
+</article>  
+
+   
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_9">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/spec_ops.png" height="210" width="160">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 160px;" class="widget widget-light-grey widget-height-3">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Spec ops - the line</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>Shooter. Dubai er blevet ramt af en voldsom sandstorm - en 
+uforklarlig naturkatastrofe, som har lagt det tidligere stenrige 
+ørkenland øde. Obert John Konrad fik evakueringsopgaven med landets 
+civile - men noget gik galt ...</p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+ 
+
+  </div>
+  <!-- .grid -->
+
+  <div class="grid_10">
+
+    <article class="widget-wrapper">
+	
+		  <div class="field-image">
+      <a href="#">
+      	<img src="/static/img/ol.png" height="250" width="190">
+      </a>
+    </div>
+	
+
+	<div style="cursor: pointer; margin-left: 190px;" class="widget widget-light-grey widget-height-3">
+
+	  <div class="inner">
+
+							<div class="field-title">
+					<h3><a href="http://google.com/">Olympic Games - London 2012</a></h3>
+				</div>
+			
+							<div class="field-body">
+				  <p>Sportsspil. De Olympiske Lege 2012. Du kan kæmpe for de danske 
+farver i hele 45 forskellige discipliner fordelt på 12 kategorier. 
+Atletik, svømning, cykling, skydning ...</p>				</div>
+			
+			<footer class="footer">
+									<div class="field-read-more">
+						<a class="icon-link icon-link-right" href="http://ibm.com/">Læs mere</a>
+					</div>	
+							</footer>
+
+		</div> 
+		<!-- inner -->
+
+  </div> 
+  <!-- widget -->
+
+</article>  
+<!-- widget-wrapper -->
+  
+
+  </div>
+  <!-- .grid -->
+  
+</div>  </div>
+
+</div>
+<!-- #region-content -->
+
+	<footer id="region-footer">
+
+  <div class="container_24">
+
+    <div class="grid_24">
+
+    	<div id="footer-logo">
+      	<img src="/static/img/logo_small.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body></html>

@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_URI} ==/var/www/
+  RewriteRule ^ /~mca/ping/src/Ping/ping/%{REQUEST_URI} [L]
+</IfModule>

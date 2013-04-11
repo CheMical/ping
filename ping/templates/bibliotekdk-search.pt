@@ -1,0 +1,808 @@
+<html class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body class="search-result">
+
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+
+  <title>BIBLIOTEK.DK</title>
+  <meta name="description" content="">
+
+
+  <link rel="stylesheet" href="/static/css/screen.css" media="screen, projection">
+  <link rel="stylesheet" href="/static/css/print.css" media="print">
+  <link rel="stylesheet" href="/static/css/css.css" type="text/css">
+
+  <script src="/static/js/jquery_003.js"></script>
+  <script src="/static/js/modernizr-2.js"></script>
+  <script src="/static/js/selectivizr-min.js"></script>
+  <script src="/static/js/jquery_002.js"></script>
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/plugins.js"></script>
+  <script src="/static/js/script.js"></script>
+
+
+
+
+<div id="region-topbar">
+
+	<div class="container_24">
+
+		<div class="grid_24">
+
+			<nav id="service-nav" class="clearfix horizontal-nav">
+				<a href="#">English</a>
+				<a href="#">Om bibliotek.dk</a>
+				<a href="#">Presserum</a>
+				<a href="#">Blog</a>
+				<a href="#">Sitemap</a>
+				<a href="#">Kontakt</a>
+				<a href="#">Hjælp</a>
+			</nav>
+			<!-- #service-nav -->
+
+
+			<nav id="user-nav" class="clearfix horizontal-nav with-mats">
+				<div id="user-nav-inner">
+					<a class="materials-button" href="#">
+						<span class="mats">7</span>materialer gemt
+					</a>
+					<a class="login-button" href="#">Log ind</a>
+				</div>
+			</nav>
+			<!-- #user-nav -->
+
+		</div>
+		<!-- .grid_24 -->
+
+	</div>
+	<!-- .container_24 -->
+
+</div>
+<!-- #top-bar --><div id="region-header">
+
+  <div class="container_24">
+
+  	<div class="grid_24">
+
+	    <div id="header-logo">
+	    	<a href="http://localhost/%7Emca/theme/pages/front.php">
+	    		<img src="/static/img/logo.png" alt="Bibliotek.dk logo">
+	      </a>
+	    </div>
+
+	    <div id="page-actions" class="horizontal-nav">
+
+	    	<div class="page-action page-action-sporg-vagt">
+	    		
+		      <a href="#">
+		        <img src="/static/img/vagt.png" height="26" width="26">
+		        Spørg biblioteksvagten
+		      </a>
+
+	    	</div>
+
+	    	<div class="page-action page-action-find-bib">
+		      <a href="#">Find bibliotek</a>
+		      <form style="display: none;">
+		      	<input placeholder="Skriv biblioteksnavn, postnr, by ..." type="text">
+          	<input value="Søg" type="submit">
+          </form>
+	    	</div>
+
+
+	    </div>
+	    <!-- page-actions -->
+
+  	</div>
+  	<!-- grid_24 -->
+
+  </div>
+  <!-- container_24 -->
+
+</div>
+<!-- #region-header -->
+
+
+<div id="region-search">
+
+  <div class="container_24">
+
+    <div class="grid_24">
+
+      <nav id="search-form">
+        <form method="${search_form_method}" action="${search_path}" class="clearfix">
+            <input name="search_string" placeholder="Skriv søgeord" type="text">
+            <input value="Søg" class="btn btn-blue btn-fixed-size" type="submit">
+        </form>
+      </nav>
+
+      <nav id="search-tabs" class="horizontal-nav clearfix">
+        <a class="active" href="#">Alt</a>
+        <a href="#">Bøger</a>
+        <a href="#">Film</a>
+        <a href="#">Musik</a>
+        <a href="#">Spil</a>
+        <a href="#">Artikler</a>
+        <a href="#">Noder</a>
+        <a href="#">Net</a>
+      </nav>
+
+      <div id="search-advanced">
+        <div id="search-advanced-toggle">
+          <a class="icon-link icon-link-whitetext icon-link-darkgreyicon icon-link-plus" href="#">Flere søgemuligheder</a>
+        </div>
+        <div id="search-advanced-panel" class="visuallyhidden">
+          <!-- ADVANCED SEARCH HERE -->
+        </div>
+      </div>
+
+
+    </div>
+    <!-- .grid_24 -->
+
+  </div>
+  <!-- .container_24 -->
+
+
+</div>
+<!-- #region-search -->
+<div id="region-subjects">
+  
+</div>
+
+<div id="region-content">
+  
+  <div class="container_24">
+
+    <div class="grid_5">
+      <div>
+  
+
+	<nav class="facets">
+
+		<div class="facets-header">
+
+			<div class="number-of-results">
+				232 resultater
+			</div>
+
+						
+		</div>
+
+	
+
+		<ul>
+
+			<li>
+				<a href="#" class="facets-type">Materialetype</a>
+				<ul>
+					<li><a href="#" class="facet"><pan>Bøger (83)</pan></a></li>
+					<li><a href="#" class="facet"><span>Tryktbog</span> (68)</a></li>
+					<li><a href="#" class="facet"><span>e-bog</span> (23)</a></li>
+					<li><a href="#" class="facet"><span>Lydbøger</span> (43)</a></li>
+					<li><a href="#" class="facet"><span>Bånd</span> (32)</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="#" class="facets-type">Emner</a>
+				<ul>
+					<li><a href="#" class="facet"><pan>Krimi (186)</pan></a></li>
+					<li><a href="#" class="facet"><span>Romaner</span> (201)</a></li>
+					<li><a href="#" class="facet"><span>Hævn</span> (89)</a></li>
+					<li><a href="#" class="facet"><span>Norge</span> (176)</a></li>
+					<li><a href="#" class="facet"><span>Bander</span> (76)</a></li>
+				</ul>
+			</li>
+
+		</ul>
+
+
+	</nav>
+
+
+
+</div>	
+    </div>
+    
+
+    <div class="grid_19">
+      <section class="works">
+
+
+
+	<div class="works-controls clearfix">
+
+		<div class="works-control-wrapper-left">
+
+			<a class="works-control works-toggle" href="#">
+				<span class="works-toggle-collapse hide-text">∨</span>
+				<span class="works-toggle-expand hide-text">∨</span>
+			</a>
+
+		</div>
+		<!-- works toggle all -->
+
+
+		<div class="works-control-wrapper-left">
+
+			<div class="dropdown-wrapper">
+
+				<a href="#" class="works-control works-sort dropdown-toggle">Sortér efter år<span class="caret hide-text">∨</span></a>
+
+				<ul class="dropdown-menu dropdown-leftalign visuallyhidden">
+					<li><a href="#" class="current">Sortér efter år</a></li>
+					<li><a href="#">Sortér efter forfatter</a></li>
+					<li><a href="#">Sortér efter titel</a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		<!-- works sort -->
+
+
+		<div class="works-control-wrapper-right">
+
+			<a href="#" class="works-control works-pager-back hide-text">∨</a>
+
+			<div class="dropdown-wrapper">
+
+				<a href="#" class="works-control works-pager-select dropdown-toggle">Side 1 <span class="caret hide-text">∨</span></a>
+				
+				<ul class="dropdown-menu dropdown-leftalign visuallyhidden">
+					<li><a href="#" class="current">Side 1</a></li>
+					<li><a href="#">Side 2</a></li>
+					<li><a href="#">Side 3</a></li>
+					<li><a href="#">Side 4</a></li>
+					<li><a href="#">Side 5</a></li>
+					<li><a href="#">Side 6</a></li>
+					<li><a href="#">Side 7</a></li>
+				</ul>
+
+			</div>
+
+			<a href="#" class="works-control works-pager-forward hide-text">∨</a>
+
+		</div>
+		<!-- works pager -->
+
+	</div>
+	<!-- works-controls -->
+
+
+
+	<div class="work element-wrapper">
+
+
+	<div class="element">
+
+
+		<div class="work-header element-section padded">
+
+
+
+			<div class="actions">
+
+				<div class="primary-actions">
+
+					<div class="dropdown-wrapper">
+						<a class="btn btn-blue dropdown-toggle" href="#">
+							Bestil uanset udgave <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu visuallyhidden">
+							<li><a href="#">Option 1</a></li>
+							<li><a href="#">Option 2</a></li>
+							<li><a href="#">Option 3</a></li>
+							<li><a href="#">Option 4</a></li>
+							<li><a href="#">Option 5</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- actions -->
+
+			<div class="element-title">
+
+				<hgroup>
+					<h2>Luft under vingerne</h2>
+					<h3>Jo Næsbø</h3>
+				</hgroup>
+
+			</div>
+
+
+
+			<div class="toggle-next-section toggle-work">
+				<a class="icon-link icon-link-plus" href="#"><strong>Mere</strong> information</a>
+			</div>
+
+
+		</div>
+		<!-- element-section (work-header) -->
+
+
+
+		<div class="work-body work-body-has-cover element-section padded">
+
+			<div class="work-shared-data clearfix">
+
+
+				<div class="work-cover">
+
+					<div class="work-cover-image">
+						<a href="#"><img src="/static/gif/cover-front-large.gif"></a>
+						<a href="#" class="visuallyhidden"><img src="/static/gif/cover-back-large.gif"></a>
+					</div>
+
+					<div class="work-cover-selector clearfix">
+						<a href="#" class="work-cover-front active"></a>
+						<a href="#" class="work-cover-back"></a>
+					</div>
+
+				</div>
+				<!-- cover -->
+
+
+				<div class="wrapper">
+
+					<div class="field-summary text">
+						<p>
+							<strong>Krimi.</strong> Et bankrøveri i Oslo udvikler sig til en ren 
+							henrettelse. Kriminalassistent Harry Hole er muligvis den sidste, 
+							der har set sin gamle kæreste inden hun bliver myrdet, og sammenhængen 
+							mellem de to forbrydelser fører til en sigøjner i en fængselscelle.
+						</p>
+
+					</div>
+
+
+					<div class="field-tags">
+												<a href="#">Krimi</a>&nbsp;/&nbsp;<a href="#">romaner</a>&nbsp;/&nbsp;<a href="#">hævn</a>&nbsp;/&nbsp;<a href="#">Oslo</a>&nbsp;/&nbsp;<a href="#">Norge</a>&nbsp;/&nbsp;<a href="#">2000-2009</a>					</div>
+
+
+					<div class="tabs tabs-light">
+
+						<div class="tabs-nav clearfix">
+							<a href="#" class="active">Find mere om</a>
+							<a href="#">Anmeldelser</a>
+						</div>
+						<!-- tabs-nav -->
+
+						<div class="tabs-sections">
+
+							<div class="tabs-section">
+
+								<div class="padded text clearfix">
+									<ul>
+										<li><a href="#">Se anmeldelse hos Infomedia</a></li>
+										<li><a href="#">Se materialevurdering</a></li>
+										<li><a href="#">Læs brugeranmeldelser og ratings</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<!-- tabs-section -->
+
+						</div>
+						<!-- tabs-sections -->
+
+					</div>
+					<!-- tabs -->
+
+				</div>
+				<!-- wrapper -->
+
+
+			</div>
+			<!-- work-share-data -->
+
+
+
+			<div class="tabs tabs-heavy">
+
+				<div class="tabs-nav clearfix">
+					<a href="#" class="active">Bog (4)</a>
+					<a href="#">Lydbog (6)</a>
+					<a href="#">Netdokument (2)</a>
+					<a href="#">Punktskrift (1)</a>
+				</div>
+				<!-- tabs-nav -->
+
+				<div class="tabs-sections">
+
+					<div class="tabs-section">
+
+	<div class="padded text clearfix">
+
+		<div class="actions">
+
+			<div class="primary-actions">
+
+				<div class="btn-wrapper">
+					<a class="btn btn-blue" href="#">Bestil <strong>bog</strong> uanset udgave</a>
+				</div>
+
+				<a class="icon-link icon-link-small icon-link-add-basket" href="#">Tilføj indkøbskurv</a>
+
+			</div>
+
+		</div>
+
+
+		
+		<a href="#" class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-list ">Hvilke biblioteker har materialet?</a>
+	
+
+	</div>
+	<!-- tabs-content -->
+
+	<div class="manifestations zebra-wrapper">
+
+	<div class="zebra-toggle">
+		<a class="icon-link icon-link-down" href="#">Skjul alle <strong>4 bøger</strong></a>
+	</div>
+
+	<div class="zebra-content">
+		<article class="manifestation zebra clearfix">
+
+	<div class="actions">
+
+		<div class="primary-actions">
+
+			<div class="btn-wrapper">
+				<a class="btn btn-grey" href="#">Bestil <strong>bog</strong> i denne udgave</a>
+			</div>
+
+			<a class="icon-link icon-link-small icon-link-darkgreytext icon-link-darkgreyicon icon-link-add-basket" href="#">Tilføj indkøbskurv</a>
+		
+		</div>
+
+		<div class="secondary-actions">
+
+			<ul>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-list" href="#">Hvilke biblioteker har materialet?</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-link" href="#">Link til denne post</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-rightarrow" href="#">Eksporter til RefWorks</a>
+				</li>
+			<ul>
+				
+		</ul></ul></div>
+
+	</div>
+	<!-- .actions -->
+
+
+	<div class="manifestation-data text">
+
+		<table class="tbl">
+			<tbody><tr>
+				<th>Originaltitel:</th>
+				<td><strong>Sorgenfri (norsk)</strong></td>
+			</tr>
+			<tr>
+				<th>ISBN:</th>
+				<td>978-87-7398-963-4</td>
+			</tr>
+			<tr>
+				<th>Seneste oplag:</th>
+				<td>10. oplag, 2012</td>
+			</tr>
+			<tr>
+				<th>Bog:</th>
+				<td>2. udgave. Modtryk, 2005</td>
+			</tr>
+			<tr>
+				<th>Lokationer:</th>
+				<td>75 biblioteker</td>
+			</tr>
+			<tr>
+				<th>Oversættelse:</th>
+				<td>Allan Hilton Andersen</td>
+			</tr>
+			<tr>
+				<th>Sideantal:</th>
+				<td>468 sider</td>
+			</tr>
+			<tr>
+				<th>Placering:</th>
+				<td>Skønlitteratur</td>
+			</tr>
+
+		</tbody></table>
+
+	</div>
+
+</article>		<article class="manifestation zebra clearfix">
+
+	<div class="actions">
+
+		<div class="primary-actions">
+
+			<div class="btn-wrapper">
+				<a class="btn btn-grey" href="#">Bestil <strong>bog</strong> i denne udgave</a>
+			</div>
+
+			<a class="icon-link icon-link-small icon-link-darkgreytext icon-link-darkgreyicon icon-link-add-basket" href="#">Tilføj indkøbskurv</a>
+		
+		</div>
+
+		<div class="secondary-actions">
+
+			<ul>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-list" href="#">Hvilke biblioteker har materialet?</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-link" href="#">Link til denne post</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-rightarrow" href="#">Eksporter til RefWorks</a>
+				</li>
+			<ul>
+				
+		</ul></ul></div>
+
+	</div>
+	<!-- .actions -->
+
+
+	<div class="manifestation-data text">
+
+		<table class="tbl">
+			<tbody><tr>
+				<th>Originaltitel:</th>
+				<td><strong>Sorgenfri (norsk)</strong></td>
+			</tr>
+			<tr>
+				<th>ISBN:</th>
+				<td>978-87-7398-963-4</td>
+			</tr>
+			<tr>
+				<th>Seneste oplag:</th>
+				<td>10. oplag, 2012</td>
+			</tr>
+			<tr>
+				<th>Bog:</th>
+				<td>2. udgave. Modtryk, 2005</td>
+			</tr>
+			<tr>
+				<th>Lokationer:</th>
+				<td>75 biblioteker</td>
+			</tr>
+			<tr>
+				<th>Oversættelse:</th>
+				<td>Allan Hilton Andersen</td>
+			</tr>
+			<tr>
+				<th>Sideantal:</th>
+				<td>468 sider</td>
+			</tr>
+			<tr>
+				<th>Placering:</th>
+				<td>Skønlitteratur</td>
+			</tr>
+
+		</tbody></table>
+
+	</div>
+
+</article>		<article class="manifestation zebra clearfix">
+
+	<div class="actions">
+
+		<div class="primary-actions">
+
+			<div class="btn-wrapper">
+				<a class="btn btn-grey" href="#">Bestil <strong>bog</strong> i denne udgave</a>
+			</div>
+
+			<a class="icon-link icon-link-small icon-link-darkgreytext icon-link-darkgreyicon icon-link-add-basket" href="#">Tilføj indkøbskurv</a>
+		
+		</div>
+
+		<div class="secondary-actions">
+
+			<ul>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-list" href="#">Hvilke biblioteker har materialet?</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-link" href="#">Link til denne post</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-rightarrow" href="#">Eksporter til RefWorks</a>
+				</li>
+			<ul>
+				
+		</ul></ul></div>
+
+	</div>
+	<!-- .actions -->
+
+
+	<div class="manifestation-data text">
+
+		<table class="tbl">
+			<tbody><tr>
+				<th>Originaltitel:</th>
+				<td><strong>Sorgenfri (norsk)</strong></td>
+			</tr>
+			<tr>
+				<th>ISBN:</th>
+				<td>978-87-7398-963-4</td>
+			</tr>
+			<tr>
+				<th>Seneste oplag:</th>
+				<td>10. oplag, 2012</td>
+			</tr>
+			<tr>
+				<th>Bog:</th>
+				<td>2. udgave. Modtryk, 2005</td>
+			</tr>
+			<tr>
+				<th>Lokationer:</th>
+				<td>75 biblioteker</td>
+			</tr>
+			<tr>
+				<th>Oversættelse:</th>
+				<td>Allan Hilton Andersen</td>
+			</tr>
+			<tr>
+				<th>Sideantal:</th>
+				<td>468 sider</td>
+			</tr>
+			<tr>
+				<th>Placering:</th>
+				<td>Skønlitteratur</td>
+			</tr>
+
+		</tbody></table>
+
+	</div>
+
+</article>		<article class="manifestation zebra clearfix">
+
+	<div class="actions">
+
+		<div class="primary-actions">
+
+			<div class="btn-wrapper">
+				<a class="btn btn-grey" href="#">Bestil <strong>bog</strong> i denne udgave</a>
+			</div>
+
+			<a class="icon-link icon-link-small icon-link-darkgreytext icon-link-darkgreyicon icon-link-add-basket" href="#">Tilføj indkøbskurv</a>
+		
+		</div>
+
+		<div class="secondary-actions">
+
+			<ul>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-list" href="#">Hvilke biblioteker har materialet?</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-link" href="#">Link til denne post</a>
+				</li>
+				<li>
+					<a class="icon-link icon-link-small icon-link-lightgreytext icon-link-lightgreyicon icon-link-rightarrow" href="#">Eksporter til RefWorks</a>
+				</li>
+			<ul>
+				
+		</ul></ul></div>
+
+	</div>
+	<!-- .actions -->
+
+
+	<div class="manifestation-data text">
+
+		<table class="tbl">
+			<tbody><tr>
+				<th>Originaltitel:</th>
+				<td><strong>Sorgenfri (norsk)</strong></td>
+			</tr>
+			<tr>
+				<th>ISBN:</th>
+				<td>978-87-7398-963-4</td>
+			</tr>
+			<tr>
+				<th>Seneste oplag:</th>
+				<td>10. oplag, 2012</td>
+			</tr>
+			<tr>
+				<th>Bog:</th>
+				<td>2. udgave. Modtryk, 2005</td>
+			</tr>
+			<tr>
+				<th>Lokationer:</th>
+				<td>75 biblioteker</td>
+			</tr>
+			<tr>
+				<th>Oversættelse:</th>
+				<td>Allan Hilton Andersen</td>
+			</tr>
+			<tr>
+				<th>Sideantal:</th>
+				<td>468 sider</td>
+			</tr>
+			<tr>
+				<th>Placering:</th>
+				<td>Skønlitteratur</td>
+			</tr>
+
+		</tbody></table>
+
+	</div>
+
+</article>	</div>
+
+
+	<div class="zebra-toggle">
+		<a class="icon-link icon-link-down opposite" href="#">Skjul alle <strong>4 bøger</strong></a>
+	</div>
+
+</div>
+<!-- manifestations -->
+</div>
+<!-- tabs-section -->
+				</div>
+				<!-- tabs-sections -->
+
+			</div>
+			<!-- tabs -->
+
+		</div>
+		<!-- element-section -->
+
+	</div>
+	<!-- element -->
+
+</div>
+<!-- element-wrapper -->
+
+
+	
+
+
+</section>
+<!-- works -->
+
+
+
+
+    </div>
+
+
+  </div>
+
+</div>
+<!-- #region-content -->
+
+	<footer id="region-footer">
+
+  <div class="container_24">
+
+    <div class="grid_24">
+
+    	<div id="footer-logo">
+      	<img src="/static/img/logo_small.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+</body></html>
